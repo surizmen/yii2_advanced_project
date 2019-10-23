@@ -1,14 +1,8 @@
 <?php
-namespace backend\controllers;
+/* @var $this yii\web\View */
+use yii\helpers\Html;
+?>
+<h1>test/index</h1>
 
-use Yii;
-use yii\web\Controller;
-
-
-class TestController extends Controller
-{
-    public function actionSay($target = 'World')
-    {
-        return $this->render('say', ['target' => $target]);
-    }
-}
+<h1>Hello <?= Html::encode($target) ?></h1>
+<p>Welcome to your Yii2 demonstration application.</p>
