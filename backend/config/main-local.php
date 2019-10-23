@@ -5,7 +5,7 @@ $config = [
         'db' => [
             'class' => 'yii\db\Connection',
             // advanced_yii2 is the database name
-            'dsn' => 'mysql:host=localhost:5432;dbname=postgres',
+            'dsn' => 'pgsql:host=localhost;dbname=postgres',
             'username' => 'postgres',
             'password' => 'arts123',
             'charset' => 'utf8',
