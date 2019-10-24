@@ -12,7 +12,10 @@ $config = [
         ],
         'request' => [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
-            'cookieValidationKey' => 'uKTQxTdNqIX-nPx85GQCJiLmqt4VJI3E',
+            'cookieValidationKey' => 'rerererererreurerrerereierereererererere',
+            'parsers' => [
+                'application/json' => 'yii\web\JsonParser',
+            ]
         ],
     ],
 ];

@@ -16,13 +16,7 @@ class AppAsset extends AssetBundle
         "css/bootstrap.css",
     ];
     public $js = [
-        //'assets/js/jquery.min.js',
-        'assets/js/jquery-ui.js',
-        'assets/js/jquery.dataTables.min.js',
-        'assets/js/jquery-ui.multidatespicker.js',
-        'assets/js/chosen.jquery.js',
-        'assets/js/chosen.jquery.js',
-        'assets/js/my-custom.js',
+
     ];
     public $depends = [
         'yii\web\YiiAsset',
